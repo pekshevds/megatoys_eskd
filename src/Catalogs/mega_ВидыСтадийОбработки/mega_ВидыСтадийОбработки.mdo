@@ -112,4 +112,29 @@
   <choiceMode>BothWays</choiceMode>
   <updateDataHistoryImmediatelyAfterWrite>true</updateDataHistoryImmediatelyAfterWrite>
   <executeAfterWriteDataHistoryVersionProcessing>true</executeAfterWriteDataHistoryVersionProcessing>
+  <tabularSections uuid="44cb2ca7-218a-429c-8940-413ffee145c6">
+    <producedTypes>
+      <objectType typeId="37cda2b0-4628-4c04-9533-4ae98f258a54" valueTypeId="e89d53f6-bc58-45de-b6b2-9452167c8367"/>
+      <rowType typeId="72a36faa-552e-47b7-b864-2a18151c90bd" valueTypeId="2bc3100a-3777-43fb-99d5-872b7fff013c"/>
+    </producedTypes>
+    <name>ПроизводственныеРесурсы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Производственные ресурсы</value>
+    </synonym>
+    <attributes uuid="a49efc25-9fb1-4c83-b2dd-21f45d8d646e">
+      <name>ПроизводственныйРесурс</name>
+      <synonym>
+        <key>ru</key>
+        <value>Производственный ресурс</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.mega_ПроизводственныеРесурсы</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
 </mdclass:Catalog>
