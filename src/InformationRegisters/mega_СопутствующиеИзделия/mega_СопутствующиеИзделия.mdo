@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0053abc0-13a0-42c0-b03d-523910feb94e">
+  <producedTypes>
+    <selectionType typeId="fae5ef53-c123-48d3-adcd-0c89bc57a678" valueTypeId="6f8a3989-8457-464b-9d3d-3a41b6dde8a5"/>
+    <listType typeId="5198be8e-c836-428e-b9b9-0d34cbfba2fd" valueTypeId="fa1be01d-9bda-4636-ab77-6ceadacf6fae"/>
+    <managerType typeId="1ab565e2-06c7-4006-bd40-5106adac14c6" valueTypeId="e167d6bc-2df3-45f9-a431-b7bf3fc296ec"/>
+    <recordSetType typeId="d014ce06-f463-4c4d-957b-bd688dab13d3" valueTypeId="785cd90e-4c16-4d21-b6db-7540542b58bb"/>
+    <recordKeyType typeId="f39ef138-b8c0-48c6-b3ad-2ef73397b85e" valueTypeId="55ec2222-def4-40a3-95d3-59faea6b30fa"/>
+    <recordType typeId="372c90b6-8570-4ac7-9b2f-082b70f33d84" valueTypeId="5e0a21a1-5cb9-4dd2-8887-044df2d2f731"/>
+    <recordManagerType typeId="54dd9b85-5e05-4b8e-8e3b-a89c64d894d6" valueTypeId="a900920c-21ce-40ff-afda-573475d4a8ec"/>
+  </producedTypes>
+  <name>mega_СопутствующиеИзделия</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сопутствующие изделия</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.mega_СопутствующиеИзделия.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.mega_СопутствующиеИзделия.Form.ФормаСписка</defaultListForm>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <attributes uuid="b3581d81-2463-4850-9f65-2581cf5b908a">
+    <name>Количество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество (выпуск на единицу основного изделия)</value>
+    </synonym>
+    <type>
+      <types>DefinedType.mega_КоличественнаяСуммаНеотрицательная</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="5124cf60-ea3f-4aef-9be2-231a1681fb4b">
+    <name>Владелец</name>
+    <synonym>
+      <key>ru</key>
+      <value>Владелец</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.mega_Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="6b70ee83-64d0-4a3e-bbb8-fcbe0f602657">
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.mega_Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </dimensions>
+  <forms uuid="a2fa96f9-6408-4d57-a4a8-f20f789681b5">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="08e047d7-e516-479b-bf12-3dac118d89ee">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

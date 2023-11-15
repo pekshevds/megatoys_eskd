@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9143a6ab-176e-4431-92b9-a61bcbe9d42b">
+  <producedTypes>
+    <managerType typeId="2faab4ac-e73c-4b3c-a5d0-4ecc4d02a341" valueTypeId="5d042290-9ed3-4257-bd5c-a14a0004c765"/>
+    <valueManagerType typeId="ca4087ee-0591-4445-bea7-a2273ab93ac0" valueTypeId="0bec0f74-df9a-48db-a8c8-e9ed1d3745ac"/>
+    <valueKeyType typeId="e7b0f124-066d-44d2-93fa-18cd61f2f638" valueTypeId="c643ac8b-e35e-4fba-bcaf-c9500f185711"/>
+  </producedTypes>
+  <name>mega_ДолжностьНачальникЦеха</name>
+  <synonym>
+    <key>ru</key>
+    <value>Должность - Начальник цеха</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.mega_Должности</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

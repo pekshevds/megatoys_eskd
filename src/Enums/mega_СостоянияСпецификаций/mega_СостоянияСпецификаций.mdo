@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d4acfd36-0f6f-4720-aa9d-6890ffa2e136">
+  <producedTypes>
+    <refType typeId="84d7a17a-4b58-4450-8f62-93f5a83f6be1" valueTypeId="dc0c3bcd-1357-4fbd-8440-2fad4c98daa9"/>
+    <listType typeId="184282b9-70f7-4694-83e9-fb4916f8ab26" valueTypeId="201009ec-c128-4b22-8f46-7d66282b3f83"/>
+    <managerType typeId="8966aeb4-1480-415f-859f-55acb18c0b1d" valueTypeId="a34bce0a-dc75-481d-976d-b3c981eb4ad5"/>
+  </producedTypes>
+  <name>mega_СостоянияСпецификаций</name>
+  <synonym>
+    <key>ru</key>
+    <value>Состояния спецификаций</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="995b61b3-a4f1-42ed-89e4-b3e6f076db0b">
+    <name>ВРазработке</name>
+    <synonym>
+      <key>ru</key>
+      <value>В разработке</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8fff14f8-36e2-4dbe-b9df-2f9e6d5f4408">
+    <name>Действует</name>
+    <synonym>
+      <key>ru</key>
+      <value>Действует</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4b0d0e1e-ac89-4dcd-9a44-b681233bec68">
+    <name>Закрыта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Закрыта</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="624f02bd-0ce6-48b7-b576-1eb72707cf0c">
+  <producedTypes>
+    <objectType typeId="131c0cc7-1c54-4a4e-a0bc-87bb0e9a2c7d" valueTypeId="3d9e3dbc-fbf1-434f-9f89-051f0d2ca625"/>
+    <refType typeId="514d3fbc-7307-45a8-b819-c6d444049696" valueTypeId="fee6d1d3-cc82-4df7-92c2-69897e756e71"/>
+    <selectionType typeId="df4c779b-755d-49d4-b516-0776b0d0c83c" valueTypeId="f24b7f59-933b-406c-8e14-b285cc4b8b0c"/>
+    <listType typeId="04e2f2d9-2612-4abc-ad31-cc82b8d39163" valueTypeId="dff9787e-a1f8-421d-b292-034e802e9c47"/>
+    <managerType typeId="41e0480d-96cf-493f-a566-1054eb044399" valueTypeId="7c70a0ac-eee4-47dd-8db0-f70e29bd21dc"/>
+  </producedTypes>
+  <name>mega_Должности</name>
+  <synonym>
+    <key>ru</key>
+    <value>Должности</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.mega_Должности.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.mega_Должности.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

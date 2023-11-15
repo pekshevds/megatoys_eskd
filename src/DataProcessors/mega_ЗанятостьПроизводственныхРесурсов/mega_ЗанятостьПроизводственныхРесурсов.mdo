@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c69ca34b-4f63-4ffa-a89d-ad7d7eda1058">
+  <producedTypes>
+    <objectType typeId="00e8e91d-1a93-4fb8-94b6-387319442500" valueTypeId="3e4b9ae9-5d3f-4904-907a-7d0e35229928"/>
+    <managerType typeId="f72a5cab-14d8-40d7-bbdf-bb72b9e92593" valueTypeId="86f5bcf2-771a-4606-9aba-ee66671531e9"/>
+  </producedTypes>
+  <name>mega_ЗанятостьПроизводственныхРесурсов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Занятость производственных ресурсов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.mega_ЗанятостьПроизводственныхРесурсов.Form.Форма</defaultForm>
+  <attributes uuid="2519ac9d-354d-4f23-9fe3-ad9e487e7a0c">
+    <name>НачалоПериода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Период с</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="aa009a6d-f2e0-4a02-a410-d415ac720671">
+    <name>КонецПериода</name>
+    <synonym>
+      <key>ru</key>
+      <value>по</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <tabularSections uuid="989c5ec9-95f8-4a74-97d4-d283daf7910e">
+    <producedTypes>
+      <objectType typeId="c0950f43-0488-45b5-ac79-6575e6cdfa84" valueTypeId="0c27f404-0c26-41a0-a5a7-8a4439faecdb"/>
+      <rowType typeId="f2153abc-397a-4b60-abae-ec0455e6c0dc" valueTypeId="ff53484d-e00b-4a9e-8b34-211d45c881c1"/>
+    </producedTypes>
+    <name>ПроизводственныеРесурсы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Производственные ресурсы</value>
+    </synonym>
+    <attributes uuid="bc12ca41-9768-41d2-abf9-1ccedd99b3ca">
+      <name>ПроизводственныйРесурс</name>
+      <synonym>
+        <key>ru</key>
+        <value>Производственный ресурс</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.mega_ПроизводственныеРесурсы</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <forms uuid="f9a0a78f-c808-47a2-baac-df964dc800dd">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

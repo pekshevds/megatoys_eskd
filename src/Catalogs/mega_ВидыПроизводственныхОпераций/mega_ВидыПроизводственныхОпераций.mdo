@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="20a77821-520e-4595-af42-f1e3499e336c">
+  <producedTypes>
+    <objectType typeId="709e09da-024e-420b-b2f9-1a49173c32bb" valueTypeId="c167a1d6-35bc-458e-8e90-0ba6c67de87f"/>
+    <refType typeId="f269612c-0c7a-40c5-bbfa-045fe62b5832" valueTypeId="99a19d6f-bc0e-4a09-b52c-1f444f179011"/>
+    <selectionType typeId="12a22dff-c228-44b9-841d-44399aade6ef" valueTypeId="51f9e363-bbcb-449c-b939-e659045ea3dd"/>
+    <listType typeId="d49194e1-e56b-44ad-8d36-850056a6b466" valueTypeId="bfe60200-8f3b-4f3c-95d6-05404c4d7c94"/>
+    <managerType typeId="519dbde4-f8b9-45a3-82b2-1f95b061c7f3" valueTypeId="e405f1a6-952e-4a02-8da1-eeb0c572445c"/>
+  </producedTypes>
+  <name>mega_ВидыПроизводственныхОпераций</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды производственных операций</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.mega_ВидыПроизводственныхОпераций.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.mega_ВидыПроизводственныхОпераций.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <dataHistory>Use</dataHistory>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>11</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <updateDataHistoryImmediatelyAfterWrite>true</updateDataHistoryImmediatelyAfterWrite>
+  <executeAfterWriteDataHistoryVersionProcessing>true</executeAfterWriteDataHistoryVersionProcessing>
+</mdclass:Catalog>

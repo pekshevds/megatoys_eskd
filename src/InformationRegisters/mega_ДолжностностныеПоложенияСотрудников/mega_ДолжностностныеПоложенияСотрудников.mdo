@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="683f22e7-ba5c-413e-95eb-4b45581c4aed">
+  <producedTypes>
+    <selectionType typeId="1e51c254-bbe0-4889-acf7-cf482e2dbe53" valueTypeId="43536276-99f1-4011-8f86-0a1d1da9bc34"/>
+    <listType typeId="80745c96-05b3-4ca9-b7a8-5692c1716fa6" valueTypeId="107a2e3e-8314-476b-a552-ff451e20f649"/>
+    <managerType typeId="4882d426-2d19-4aee-a8e9-28bcd46adbaa" valueTypeId="a8872ca1-4e4a-4b2f-b181-5a8579175c34"/>
+    <recordSetType typeId="21eb5a17-9bfa-4089-897c-39e7de00b992" valueTypeId="ae8626d5-3825-41e9-8760-8f26a9a00a26"/>
+    <recordKeyType typeId="41fc64dc-747b-4794-972a-391dbdf00f82" valueTypeId="13e95672-be3c-40d2-a79f-ab0581cb72c4"/>
+    <recordType typeId="7da0cf4b-c7cd-40f5-a399-7fc53279b154" valueTypeId="3b79ca11-dcbe-4de9-9214-b22c47a5e934"/>
+    <recordManagerType typeId="b5b414bc-6355-44d9-8fc7-cc66d7e09c52" valueTypeId="73a39ea9-1b20-4d87-ad70-79581a04af06"/>
+  </producedTypes>
+  <name>mega_ДолжностностныеПоложенияСотрудников</name>
+  <synonym>
+    <key>ru</key>
+    <value>Должностностные положения сотрудников</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="b8727c6c-d4ac-49fb-a838-2560981e8187">
+    <name>Должность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Должность</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.mega_Должности</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="0f8690f7-74f5-437d-ad36-86b71de24970">
+    <name>Сотрудник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.mega_Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="ed51b50f-e19c-41c4-920e-a3a5035cac0e">
+    <name>Подразделение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подразделение</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.mega_Подразделения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

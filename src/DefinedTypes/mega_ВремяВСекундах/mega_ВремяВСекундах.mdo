@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4aacda24-07ef-4ad3-99d2-17b729f7526e">
+  <producedTypes>
+    <containerType typeId="732c39f6-9130-48b5-88dd-a8a7998728ab" valueTypeId="7ed62f33-4ffd-4a2a-a99f-6814866c8d9f"/>
+  </producedTypes>
+  <name>mega_ВремяВСекундах</name>
+  <synonym>
+    <key>ru</key>
+    <value>Время в секундах</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>15</precision>
+      <nonNegative>true</nonNegative>
+    </numberQualifiers>
+  </type>
+</mdclass:DefinedType>
