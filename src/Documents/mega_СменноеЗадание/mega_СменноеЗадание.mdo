@@ -425,7 +425,7 @@
         <value>Ответственный</value>
       </synonym>
       <type>
-        <types>CatalogRef.Пользователи</types>
+        <types>CatalogRef.mega_Сотрудники</types>
       </type>
       <toolTip>
         <key>ru</key>
