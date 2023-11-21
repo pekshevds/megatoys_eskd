@@ -3435,6 +3435,10 @@
           <dataPath xsi:type="form:DataPath">
             <segments>Объект.ПроизводственнаяСмена</segments>
           </dataPath>
+          <handlers>
+            <event>OnChange</event>
+            <name>ПроизводственнаяСменаПриИзменении</name>
+          </handlers>
           <extendedTooltip>
             <name>ПроизводственнаяСменаРасширеннаяПодсказка</name>
             <id>293</id>

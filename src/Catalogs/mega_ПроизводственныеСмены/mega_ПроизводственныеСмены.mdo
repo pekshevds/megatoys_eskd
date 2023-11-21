@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="90fafd7c-7c6b-48e0-94b7-4b3c67dfa383">
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="90fafd7c-7c6b-48e0-94b7-4b3c67dfa383">
   <producedTypes>
     <objectType typeId="720198b6-9df6-444a-8a96-ac86d6c7969b" valueTypeId="0c1a3b36-10a6-4018-9883-469d4d8bf4e9"/>
     <refType typeId="b1008bd2-f671-4d93-a792-b667b8b2b3af" valueTypeId="13cc8849-41e7-499d-bb04-dcfffa6cf1ac"/>
@@ -32,4 +32,40 @@
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
   <updateDataHistoryImmediatelyAfterWrite>true</updateDataHistoryImmediatelyAfterWrite>
+  <attributes uuid="cea47ae2-d301-4e2c-8331-cce555b3edc7">
+    <name>НачалоСмены</name>
+    <synonym>
+      <key>ru</key>
+      <value>Начало смены</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Time</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="6080412a-4d68-4192-b2f3-a814f9d89446">
+    <name>ОкончаниеСмены</name>
+    <synonym>
+      <key>ru</key>
+      <value>Окончание смены</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Time</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
 </mdclass:Catalog>
