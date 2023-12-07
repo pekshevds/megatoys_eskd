@@ -2049,6 +2049,7 @@
   <documents>Document.ТелефонныйЗвонок</documents>
   <documents>Document.ЭлектронноеПисьмоВходящее</documents>
   <documents>Document.ЭлектронноеПисьмоИсходящее</documents>
+  <documents>Document.mega_СменныйПланПроизводства</documents>
   <documentJournals>DocumentJournal.Взаимодействия</documentJournals>
   <documentJournals>DocumentJournal.СогласияНаОбработкуПерсональныхДанных</documentJournals>
   <enums>Enum.mega_СостоянияСпецификаций</enums>

@@ -15,5 +15,6 @@
   <content>Document.mega_СменноеЗадание</content>
   <content>Document.mega_ПроизводственнаяОперацияСводная</content>
   <content>Document.mega_УстановкаЦенПлановойСебестоимости</content>
+  <content>Document.mega_СменныйПланПроизводства</content>
   <parentSubsystem>Subsystem.mega_Производство</parentSubsystem>
 </mdclass:Subsystem>

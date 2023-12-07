@@ -234,6 +234,21 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="0666cf33-7b3f-4732-af25-b5bf8d9f6682">
+    <name>СменныйПланПроизводства</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сменный план производства</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.mega_СменныйПланПроизводства</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <forms uuid="6c47a9ca-7de3-474e-ba50-a5c467622679">
     <name>ФормаДокумента</name>
     <synonym>
