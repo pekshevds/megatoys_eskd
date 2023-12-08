@@ -2050,6 +2050,7 @@
   <documents>Document.ЭлектронноеПисьмоВходящее</documents>
   <documents>Document.ЭлектронноеПисьмоИсходящее</documents>
   <documents>Document.mega_СменныйПланПроизводства_v1</documents>
+  <documents>Document.mega_СменныйПланПроизводства_v2</documents>
   <documentJournals>DocumentJournal.Взаимодействия</documentJournals>
   <documentJournals>DocumentJournal.СогласияНаОбработкуПерсональныхДанных</documentJournals>
   <enums>Enum.mega_СостоянияСпецификаций</enums>

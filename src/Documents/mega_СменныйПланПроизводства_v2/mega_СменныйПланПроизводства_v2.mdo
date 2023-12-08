@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cda8605d-697e-4376-89eb-fa7c31535d94">
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="43bf439c-e307-4e36-902c-e3afb33a7d24">
   <producedTypes>
-    <objectType typeId="6cd7d8fe-afae-4560-afe9-4ad8d61c7f57" valueTypeId="617e9a32-c4d8-41a7-b129-8f7607382fed"/>
-    <refType typeId="9535ef56-3c51-4580-b7fb-b2b13d03f019" valueTypeId="722452aa-dc0e-43ee-b729-a3ae42e47ecf"/>
-    <selectionType typeId="62315ac2-38c6-4385-9d1c-8f20a0821d7e" valueTypeId="430ad68e-e297-42bc-8ea7-6ee5fa6002df"/>
-    <listType typeId="e9f32699-e0e5-4bc9-b6fd-3f891774e7e9" valueTypeId="64a542b1-0a95-4df7-81a0-a78eb1aca03a"/>
-    <managerType typeId="4b4fffdd-cd1e-4a1d-9655-1b9e288882ea" valueTypeId="436cff2f-9fb1-4c7b-a2eb-170b71d37cf8"/>
+    <objectType typeId="d7a3220a-7058-4e6a-a3fd-b8e6a4bb593a" valueTypeId="daef842f-28a1-47cf-8e01-4229713d454b"/>
+    <refType typeId="aca4d092-c411-459d-956c-a00adab4b541" valueTypeId="16f8dc62-7ca9-499b-b6fc-881559fbc6e9"/>
+    <selectionType typeId="3454a16b-839a-4c2b-adef-426d88df82ac" valueTypeId="ffc8b5c5-fcee-4412-b114-efd507dfba05"/>
+    <listType typeId="c1b7785d-2a87-4461-9da8-b933da788778" valueTypeId="c5e8ce7e-bfd0-404d-9d7c-662e9ab03fd3"/>
+    <managerType typeId="dc424d28-cf4c-4433-b256-8bab495112f5" valueTypeId="d0980267-e9a7-4e1d-8fe4-752d75bee7ab"/>
   </producedTypes>
-  <name>mega_СменныйПланПроизводства_v1</name>
+  <name>mega_СменныйПланПроизводства_v2</name>
   <synonym>
     <key>ru</key>
-    <value>Сменный план производства (v1)</value>
+    <value>Сменный план производства (v2)</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
-  <inputByString>Document.mega_СменныйПланПроизводства_v1.StandardAttribute.Number</inputByString>
+  <inputByString>Document.mega_СменныйПланПроизводства_v2.StandardAttribute.Number</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
   <createOnInput>Use</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
@@ -23,12 +23,12 @@
   <numberAllowedLength>Variable</numberAllowedLength>
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
-  <defaultObjectForm>Document.mega_СменныйПланПроизводства_v1.Form.ФормаДокумента</defaultObjectForm>
-  <defaultListForm>Document.mega_СменныйПланПроизводства_v1.Form.ФормаСписка</defaultListForm>
+  <defaultObjectForm>Document.mega_СменныйПланПроизводства_v2.Form.ФормаДокумента</defaultObjectForm>
+  <defaultListForm>Document.mega_СменныйПланПроизводства_v2.Form.ФормаСписка</defaultListForm>
   <realTimePosting>Deny</realTimePosting>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
-  <attributes uuid="3de0453e-5eb5-41d1-bd67-d1f24312f852">
+  <attributes uuid="58badf16-3403-44ad-b3d4-d29cc6b87d62">
     <name>Автор</name>
     <synonym>
       <key>ru</key>
@@ -49,7 +49,7 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="3026f1a9-c8c3-4e4a-b138-7b4a7658d50c">
+  <attributes uuid="4b47f039-58e8-406e-8f01-32cfa7c85433">
     <name>Ответственный</name>
     <synonym>
       <key>ru</key>
@@ -71,7 +71,7 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="576993d9-ce57-475b-8082-73e498e00f82">
+  <attributes uuid="45fe4839-5a0b-478f-88e0-c10cde191aec">
     <name>Комментарий</name>
     <synonym>
       <key>ru</key>
@@ -95,7 +95,7 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="1eecde00-427d-4b9d-ae2e-5d9015c58e19">
+  <attributes uuid="2c786be4-6a26-471f-885d-9966dfc05bff">
     <name>ДатаСмены</name>
     <synonym>
       <key>ru</key>
@@ -114,7 +114,7 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <forms uuid="5961229a-9128-434b-8691-c8551f0b39dc">
+  <forms uuid="727099f2-cc20-4662-b9c5-2cc0aac6da8a">
     <name>ФормаДокумента</name>
     <synonym>
       <key>ru</key>
@@ -123,7 +123,7 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
-  <forms uuid="77ee90ec-385e-417a-a8fd-0c0eff5cf4ca">
+  <forms uuid="e2bc4e35-4328-4244-8efd-ddc1d60d285b">
     <name>ФормаСписка</name>
     <synonym>
       <key>ru</key>
@@ -132,10 +132,10 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
-  <tabularSections uuid="ebca7cf7-7c56-4fed-898b-d3bbeee4f07b">
+  <tabularSections uuid="1179f685-51bc-41d1-a7a7-c8b7ea49c098">
     <producedTypes>
-      <objectType typeId="31d816a6-66c0-4c87-8028-2959bc618eb2" valueTypeId="25626888-eeb4-4f73-8fc2-78f20f8e7273"/>
-      <rowType typeId="01f07708-4841-4617-a6a4-cea051197d4f" valueTypeId="c66bd423-fbe3-474b-bb37-418ca10c9652"/>
+      <objectType typeId="4af9ba83-6381-48bb-b42e-c2b9be3fe40e" valueTypeId="4ef2a7eb-351e-452e-a7e8-27e1985da71c"/>
+      <rowType typeId="f1fa8ef0-0d67-4141-8934-e1300b06245e" valueTypeId="25df0cad-efaa-48a1-8b9d-64c8cdf53dc2"/>
     </producedTypes>
     <name>Состав</name>
     <synonym>
@@ -150,7 +150,7 @@
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
     </standardAttributes>
-    <attributes uuid="3e875d74-c201-4b3e-98f5-229f20efcbc0">
+    <attributes uuid="20ae8191-318f-42a1-80c7-79076914e22e">
       <name>Номенклатура</name>
       <synonym>
         <key>ru</key>
@@ -165,7 +165,7 @@
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
-    <attributes uuid="c295e7b6-3e00-46e0-8b24-e48c074a3e10">
+    <attributes uuid="edf1ab69-8052-42f2-8031-046dd558e604">
       <name>ЕдиницаИзмерения</name>
       <synonym>
         <key>ru</key>
@@ -179,12 +179,12 @@
       <fillChecking>ShowError</fillChecking>
       <choiceParameterLinks>
         <name>Отбор.Владелец</name>
-        <field>Document.mega_СменныйПланПроизводства_v1.TabularSection.Состав.Attribute.Номенклатура</field>
+        <field>Document.mega_СменныйПланПроизводства_v2.TabularSection.Состав.Attribute.Номенклатура</field>
       </choiceParameterLinks>
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
-    <attributes uuid="2f9bf10b-1cd8-47e3-a58e-231cca4889c7">
+    <attributes uuid="53f2854a-de07-4d02-b19e-7d4cf4cce94c">
       <name>Количество</name>
       <synonym>
         <key>ru</key>
@@ -199,7 +199,7 @@
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
-    <attributes uuid="8f5bf78e-231d-4cfa-addb-a640d2e5a341">
+    <attributes uuid="695a630b-1fb7-4817-b264-89e058007757">
       <name>Спецификация</name>
       <synonym>
         <key>ru</key>
@@ -213,12 +213,12 @@
       <fillChecking>ShowError</fillChecking>
       <choiceParameterLinks>
         <name>Отбор.Владелец</name>
-        <field>Document.mega_СменныйПланПроизводства_v1.TabularSection.Состав.Attribute.Номенклатура</field>
+        <field>Document.mega_СменныйПланПроизводства_v2.TabularSection.Состав.Attribute.Номенклатура</field>
       </choiceParameterLinks>
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
-    <attributes uuid="20e92a1e-64eb-484b-9a69-304ecee285e1">
+    <attributes uuid="00073c88-8f30-4864-b2f7-13866ce7a3c5">
       <name>ВидСтадииОбработки</name>
       <synonym>
         <key>ru</key>
@@ -231,10 +231,10 @@
       <maxValue xsi:type="core:UndefinedValue"/>
     </attributes>
   </tabularSections>
-  <tabularSections uuid="05c5c70d-76b7-4d40-8fe4-39df39660205">
+  <tabularSections uuid="e1c4a9b9-61bd-4730-bc4d-2615c6e9a867">
     <producedTypes>
-      <objectType typeId="db0b3f57-6c89-49e9-a9a8-d6064a42a64f" valueTypeId="d09509f7-50c2-4e9b-b9f8-c2bf10cd5fe9"/>
-      <rowType typeId="9890c12d-7c0a-496b-9b79-d540887273bf" valueTypeId="ded314a5-5ab3-456f-a76e-e982be8aa23e"/>
+      <objectType typeId="d1be2485-82c7-455d-87ba-f9ef15271822" valueTypeId="5ab38e35-28ef-4ac6-a68f-9caff4899f02"/>
+      <rowType typeId="dcbd7c18-78c3-482c-9614-87c4e4142637" valueTypeId="64db82d3-df8a-4bec-99ce-0543dd3e226d"/>
     </producedTypes>
     <name>Материалы</name>
     <synonym>
@@ -249,7 +249,7 @@
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
     </standardAttributes>
-    <attributes uuid="65ae882b-01fa-4169-9d02-6d505234e00e">
+    <attributes uuid="0db5d493-0671-461b-994a-456c36fadf12">
       <name>Номенклатура</name>
       <synonym>
         <key>ru</key>
@@ -268,7 +268,7 @@
         </value>
       </choiceParameters>
     </attributes>
-    <attributes uuid="b8c69e86-d67f-4256-aa16-dfcbbcab9ad0">
+    <attributes uuid="fa5ad9f8-9e44-421f-a7f8-7024f2c6c73e">
       <name>ЕдиницаИзмерения</name>
       <synonym>
         <key>ru</key>
@@ -282,10 +282,10 @@
       <fillChecking>ShowError</fillChecking>
       <choiceParameterLinks>
         <name>Отбор.Владелец</name>
-        <field>Document.mega_СменныйПланПроизводства_v1.TabularSection.Материалы.Attribute.Номенклатура</field>
+        <field>Document.mega_СменныйПланПроизводства_v2.TabularSection.Материалы.Attribute.Номенклатура</field>
       </choiceParameterLinks>
     </attributes>
-    <attributes uuid="52884a6b-cf8c-46ed-846e-16f399a27703">
+    <attributes uuid="728949dc-52ee-462d-8a73-0855a76f0db5">
       <name>Количество</name>
       <synonym>
         <key>ru</key>
@@ -298,7 +298,7 @@
       <maxValue xsi:type="core:UndefinedValue"/>
       <fillChecking>ShowError</fillChecking>
     </attributes>
-    <attributes uuid="4f1a8f03-c408-428b-8965-c4c062a35058">
+    <attributes uuid="2dc98f64-26fe-43d3-b84b-03a2a47cdaa6">
       <name>ВидСтадииОбработки</name>
       <synonym>
         <key>ru</key>
@@ -310,7 +310,7 @@
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
     </attributes>
-    <attributes uuid="a62c295f-5a44-4635-8383-500c749e12fd">
+    <attributes uuid="3e4f569c-5963-45a7-8b8b-c53205aa818a">
       <name>Спецификация</name>
       <synonym>
         <key>ru</key>
@@ -323,16 +323,16 @@
       <maxValue xsi:type="core:UndefinedValue"/>
       <choiceParameterLinks>
         <name>Отбор.Владелец</name>
-        <field>Document.mega_СменныйПланПроизводства_v1.TabularSection.Материалы.Attribute.Номенклатура</field>
+        <field>Document.mega_СменныйПланПроизводства_v2.TabularSection.Материалы.Attribute.Номенклатура</field>
       </choiceParameterLinks>
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
   </tabularSections>
-  <tabularSections uuid="f7a8c509-92d9-4ad6-a35c-4e85e9b569c7">
+  <tabularSections uuid="287aa306-ef12-48fd-ae98-c091dd0e94d6">
     <producedTypes>
-      <objectType typeId="a719a1ea-ede3-4334-9f55-ddb387d2d558" valueTypeId="5a84024d-efa6-4737-9232-326769769a70"/>
-      <rowType typeId="15c7d4ad-9157-4583-b7c4-6044acd67214" valueTypeId="93deafdf-bd13-4a5e-8ef9-d330a09df95f"/>
+      <objectType typeId="8ed3fe07-e612-44e9-95b7-c1a525f9aad2" valueTypeId="81694186-3bba-4805-b484-7be7bca7ddfd"/>
+      <rowType typeId="fe562324-09b1-45cd-9955-61e50c7edae6" valueTypeId="00d839cf-2a5b-4ab3-b284-5c9b7585fdcf"/>
     </producedTypes>
     <name>Ресурсы</name>
     <synonym>
@@ -347,7 +347,7 @@
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
     </standardAttributes>
-    <attributes uuid="edd976c2-fc8c-4e80-8025-2e4f30583640">
+    <attributes uuid="e4381af2-ad6a-4380-bdf8-430e2a874c35">
       <name>Ресурс</name>
       <synonym>
         <key>ru</key>
@@ -359,7 +359,7 @@
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
     </attributes>
-    <attributes uuid="521c4643-d46c-45f6-8068-78fc09e0e787">
+    <attributes uuid="ed82ff83-8044-4de6-bb46-99e3f9b3008a">
       <name>Номенклатура</name>
       <synonym>
         <key>ru</key>
@@ -378,7 +378,7 @@
         </value>
       </choiceParameters>
     </attributes>
-    <attributes uuid="34035fb5-cf39-482f-817e-75c1b1421cef">
+    <attributes uuid="52bfc80a-1f58-4ff3-87d1-7b2d05ba5c5b">
       <name>ЕдиницаИзмерения</name>
       <synonym>
         <key>ru</key>
@@ -392,10 +392,10 @@
       <fillChecking>ShowError</fillChecking>
       <choiceParameterLinks>
         <name>Отбор.Владелец</name>
-        <field>Document.mega_СменныйПланПроизводства_v1.TabularSection.Ресурсы.Attribute.Номенклатура</field>
+        <field>Document.mega_СменныйПланПроизводства_v2.TabularSection.Ресурсы.Attribute.Номенклатура</field>
       </choiceParameterLinks>
     </attributes>
-    <attributes uuid="fb7589fd-91ef-4584-a0d7-495141ac5dc6">
+    <attributes uuid="9270927a-3db3-4615-9fc2-7e8a76710e9c">
       <name>Количество</name>
       <synonym>
         <key>ru</key>
@@ -409,10 +409,10 @@
       <fillChecking>ShowError</fillChecking>
     </attributes>
   </tabularSections>
-  <tabularSections uuid="8ab24537-28cc-4ff6-9026-3e9c04bf7426">
+  <tabularSections uuid="07cdcea4-7986-4ac2-a183-b8f76d8db8aa">
     <producedTypes>
-      <objectType typeId="6a4bd1a9-845b-4a01-8166-9c08920a77a1" valueTypeId="77d9ff99-e043-416f-b4a0-2047aee7eb9c"/>
-      <rowType typeId="5d6019bd-3742-4c2b-b807-68ea19ddf707" valueTypeId="9b402303-1dff-4ca9-ab82-18d5bd8a0976"/>
+      <objectType typeId="b83c1e00-9868-4ee5-871c-a0a063fddb72" valueTypeId="852d3c01-060c-419f-a676-1d045316a729"/>
+      <rowType typeId="2993da32-b5db-43cd-a6b8-92cdd16efb8f" valueTypeId="a899c5ba-556d-4bbb-bbce-b8abdfb943b0"/>
     </producedTypes>
     <name>ОстаткиРесурсов</name>
     <synonym>
@@ -427,7 +427,7 @@
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
     </standardAttributes>
-    <attributes uuid="16ad96fe-a1fc-42b2-90f3-b0943c3c9689">
+    <attributes uuid="6ec5b328-5a00-49a6-82e2-229ade5e07fc">
       <name>Ресурс</name>
       <synonym>
         <key>ru</key>
@@ -439,7 +439,7 @@
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
     </attributes>
-    <attributes uuid="0e0f6ab9-62f4-48c4-b595-ecdeecd6d177">
+    <attributes uuid="cb9bfa3b-0c21-4058-b8a1-11eb73263a3e">
       <name>Количество</name>
       <synonym>
         <key>ru</key>
@@ -453,10 +453,10 @@
       <fillChecking>ShowError</fillChecking>
     </attributes>
   </tabularSections>
-  <tabularSections uuid="910e9fc4-cd76-47aa-9968-79568f29d510">
+  <tabularSections uuid="7d9ddb2d-1030-4bb9-a270-ed1a1378d06e">
     <producedTypes>
-      <objectType typeId="73f9e952-f864-456e-998a-dea6667beb3f" valueTypeId="c46c404e-f629-4620-960c-8ce7f4089a5a"/>
-      <rowType typeId="2377218f-e038-42b0-b2aa-f10c309d13a0" valueTypeId="dd884101-b51a-479c-8eca-a40bf3aba9d7"/>
+      <objectType typeId="85a6f4fd-e4e7-44f7-845c-a4cef1791bae" valueTypeId="53112668-5205-4160-93a0-588c864f32e7"/>
+      <rowType typeId="82713563-e2fa-42e8-ac2d-f72e545587ab" valueTypeId="f35d6df6-aaf5-417b-845f-96579f612254"/>
     </producedTypes>
     <name>ВидыСтадийОбработки</name>
     <synonym>
@@ -471,7 +471,7 @@
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
     </standardAttributes>
-    <attributes uuid="8eae37d8-6341-4e63-b568-be424d45ad7f">
+    <attributes uuid="f295120d-99b3-4c13-a311-9d9ed9c4d07a">
       <name>Номенклатура</name>
       <synonym>
         <key>ru</key>
@@ -490,7 +490,7 @@
         </value>
       </choiceParameters>
     </attributes>
-    <attributes uuid="a818c267-2eb2-40b1-a71c-ffb9d448803d">
+    <attributes uuid="15ff9f1c-ad17-4df8-8f50-50c3b7d657c6">
       <name>ЕдиницаИзмерения</name>
       <synonym>
         <key>ru</key>
@@ -504,10 +504,10 @@
       <fillChecking>ShowError</fillChecking>
       <choiceParameterLinks>
         <name>Отбор.Владелец</name>
-        <field>Document.mega_СменныйПланПроизводства_v1.TabularSection.ВидыСтадийОбработки.Attribute.Номенклатура</field>
+        <field>Document.mega_СменныйПланПроизводства_v2.TabularSection.ВидыСтадийОбработки.Attribute.Номенклатура</field>
       </choiceParameterLinks>
     </attributes>
-    <attributes uuid="576e0df1-6a88-4bd4-b1f2-4809c8e77f20">
+    <attributes uuid="e9b1ed1e-5b48-433b-a103-535b69b8430b">
       <name>Количество</name>
       <synonym>
         <key>ru</key>
@@ -520,7 +520,7 @@
       <maxValue xsi:type="core:UndefinedValue"/>
       <fillChecking>ShowError</fillChecking>
     </attributes>
-    <attributes uuid="8a9d0eae-9b7a-4dc8-9ca8-a733e04c0c21">
+    <attributes uuid="40350c46-dc12-4628-b84b-6b339ebd2c41">
       <name>ВидСтадииОбработки</name>
       <synonym>
         <key>ru</key>
@@ -532,7 +532,7 @@
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
     </attributes>
-    <attributes uuid="c1f4c824-2914-4e69-a894-21c36c4488a9">
+    <attributes uuid="ca08f1f4-865e-4956-85c5-b8e206c730c0">
       <name>Спецификация</name>
       <synonym>
         <key>ru</key>
@@ -546,13 +546,13 @@
       <fillChecking>ShowError</fillChecking>
       <choiceParameterLinks>
         <name>Отбор.Владелец</name>
-        <field>Document.mega_СменныйПланПроизводства_v1.TabularSection.ВидыСтадийОбработки.Attribute.Номенклатура</field>
+        <field>Document.mega_СменныйПланПроизводства_v2.TabularSection.ВидыСтадийОбработки.Attribute.Номенклатура</field>
       </choiceParameterLinks>
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
   </tabularSections>
-  <templates uuid="b6245e76-bf43-438b-8db5-fa75f4ff7829">
+  <templates uuid="b2aa9687-4a27-4704-bf1f-998db1000eab">
     <name>ПФ_MXL_ПечатнаяФорма</name>
     <synonym>
       <key>ru</key>

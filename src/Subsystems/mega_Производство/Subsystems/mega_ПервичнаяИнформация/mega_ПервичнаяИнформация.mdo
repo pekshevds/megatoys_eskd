@@ -16,5 +16,6 @@
   <content>Document.mega_ПроизводственнаяОперацияСводная</content>
   <content>Document.mega_УстановкаЦенПлановойСебестоимости</content>
   <content>Document.mega_СменныйПланПроизводства_v1</content>
+  <content>Document.mega_СменныйПланПроизводства_v2</content>
   <parentSubsystem>Subsystem.mega_Производство</parentSubsystem>
 </mdclass:Subsystem>
