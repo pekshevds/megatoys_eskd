@@ -2038,6 +2038,8 @@
   <documents>Document.mega_ПроизводственнаяОперацияСводная</documents>
   <documents>Document.mega_РасходнаяНакладная</documents>
   <documents>Document.mega_СменноеЗадание</documents>
+  <documents>Document.mega_СменныйПланПроизводства_v1</documents>
+  <documents>Document.mega_СменныйПланПроизводства_v2</documents>
   <documents>Document.mega_УстановкаЦенПлановойСебестоимости</documents>
   <documents>Document.Анкета</documents>
   <documents>Document.Встреча</documents>
@@ -2049,8 +2051,6 @@
   <documents>Document.ТелефонныйЗвонок</documents>
   <documents>Document.ЭлектронноеПисьмоВходящее</documents>
   <documents>Document.ЭлектронноеПисьмоИсходящее</documents>
-  <documents>Document.mega_СменныйПланПроизводства_v1</documents>
-  <documents>Document.mega_СменныйПланПроизводства_v2</documents>
   <documentJournals>DocumentJournal.Взаимодействия</documentJournals>
   <documentJournals>DocumentJournal.СогласияНаОбработкуПерсональныхДанных</documentJournals>
   <enums>Enum.mega_СостоянияСпецификаций</enums>

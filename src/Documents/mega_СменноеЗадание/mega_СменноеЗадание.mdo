@@ -30,6 +30,7 @@
   <autonumbering>true</autonumbering>
   <defaultObjectForm>Document.mega_СменноеЗадание.Form.ФормаДокумента</defaultObjectForm>
   <defaultListForm>Document.mega_СменноеЗадание.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Document.mega_СменноеЗадание.Form.ФормаПодбораПоОстаткамПредыдущихВидовСтадийПроизводства</defaultChoiceForm>
   <realTimePosting>Deny</realTimePosting>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
@@ -263,6 +264,15 @@
     <synonym>
       <key>ru</key>
       <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="e1e4637d-8212-46d1-8073-e5269638c3a0">
+    <name>ФормаПодбораПоОстаткамПредыдущихВидовСтадийПроизводства</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма подбора по остаткам предыдущих видов стадий производства</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
