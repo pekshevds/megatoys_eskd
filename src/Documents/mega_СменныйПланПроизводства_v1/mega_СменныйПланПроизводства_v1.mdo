@@ -7,13 +7,13 @@
     <listType typeId="e9f32699-e0e5-4bc9-b6fd-3f891774e7e9" valueTypeId="64a542b1-0a95-4df7-81a0-a78eb1aca03a"/>
     <managerType typeId="4b4fffdd-cd1e-4a1d-9655-1b9e288882ea" valueTypeId="436cff2f-9fb1-4c7b-a2eb-170b71d37cf8"/>
   </producedTypes>
-  <name>mega_СменныйПланПроизводства</name>
+  <name>mega_СменныйПланПроизводства_v1</name>
   <synonym>
     <key>ru</key>
     <value>Сменный план производства</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
-  <inputByString>Document.mega_СменныйПланПроизводства.StandardAttribute.Number</inputByString>
+  <inputByString>Document.mega_СменныйПланПроизводства_v1.StandardAttribute.Number</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
   <createOnInput>Use</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
@@ -23,8 +23,8 @@
   <numberAllowedLength>Variable</numberAllowedLength>
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
-  <defaultObjectForm>Document.mega_СменныйПланПроизводства.Form.ФормаДокумента</defaultObjectForm>
-  <defaultListForm>Document.mega_СменныйПланПроизводства.Form.ФормаСписка</defaultListForm>
+  <defaultObjectForm>Document.mega_СменныйПланПроизводства_v1.Form.ФормаДокумента</defaultObjectForm>
+  <defaultListForm>Document.mega_СменныйПланПроизводства_v1.Form.ФормаСписка</defaultListForm>
   <realTimePosting>Deny</realTimePosting>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
@@ -179,7 +179,7 @@
       <fillChecking>ShowError</fillChecking>
       <choiceParameterLinks>
         <name>Отбор.Владелец</name>
-        <field>Document.mega_СменныйПланПроизводства.TabularSection.Состав.Attribute.Номенклатура</field>
+        <field>Document.mega_СменныйПланПроизводства_v1.TabularSection.Состав.Attribute.Номенклатура</field>
       </choiceParameterLinks>
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
@@ -213,7 +213,7 @@
       <fillChecking>ShowError</fillChecking>
       <choiceParameterLinks>
         <name>Отбор.Владелец</name>
-        <field>Document.mega_СменныйПланПроизводства.TabularSection.Состав.Attribute.Номенклатура</field>
+        <field>Document.mega_СменныйПланПроизводства_v1.TabularSection.Состав.Attribute.Номенклатура</field>
       </choiceParameterLinks>
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
@@ -282,7 +282,7 @@
       <fillChecking>ShowError</fillChecking>
       <choiceParameterLinks>
         <name>Отбор.Владелец</name>
-        <field>Document.mega_СменныйПланПроизводства.TabularSection.Материалы.Attribute.Номенклатура</field>
+        <field>Document.mega_СменныйПланПроизводства_v1.TabularSection.Материалы.Attribute.Номенклатура</field>
       </choiceParameterLinks>
     </attributes>
     <attributes uuid="52884a6b-cf8c-46ed-846e-16f399a27703">
@@ -323,7 +323,7 @@
       <maxValue xsi:type="core:UndefinedValue"/>
       <choiceParameterLinks>
         <name>Отбор.Владелец</name>
-        <field>Document.mega_СменныйПланПроизводства.TabularSection.Материалы.Attribute.Номенклатура</field>
+        <field>Document.mega_СменныйПланПроизводства_v1.TabularSection.Материалы.Attribute.Номенклатура</field>
       </choiceParameterLinks>
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
@@ -392,7 +392,7 @@
       <fillChecking>ShowError</fillChecking>
       <choiceParameterLinks>
         <name>Отбор.Владелец</name>
-        <field>Document.mega_СменныйПланПроизводства.TabularSection.Ресурсы.Attribute.Номенклатура</field>
+        <field>Document.mega_СменныйПланПроизводства_v1.TabularSection.Ресурсы.Attribute.Номенклатура</field>
       </choiceParameterLinks>
     </attributes>
     <attributes uuid="fb7589fd-91ef-4584-a0d7-495141ac5dc6">
@@ -504,7 +504,7 @@
       <fillChecking>ShowError</fillChecking>
       <choiceParameterLinks>
         <name>Отбор.Владелец</name>
-        <field>Document.mega_СменныйПланПроизводства.TabularSection.ВидыСтадийОбработки.Attribute.Номенклатура</field>
+        <field>Document.mega_СменныйПланПроизводства_v1.TabularSection.ВидыСтадийОбработки.Attribute.Номенклатура</field>
       </choiceParameterLinks>
     </attributes>
     <attributes uuid="576e0df1-6a88-4bd4-b1f2-4809c8e77f20">
@@ -546,7 +546,7 @@
       <fillChecking>ShowError</fillChecking>
       <choiceParameterLinks>
         <name>Отбор.Владелец</name>
-        <field>Document.mega_СменныйПланПроизводства.TabularSection.ВидыСтадийОбработки.Attribute.Номенклатура</field>
+        <field>Document.mega_СменныйПланПроизводства_v1.TabularSection.ВидыСтадийОбработки.Attribute.Номенклатура</field>
       </choiceParameterLinks>
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>

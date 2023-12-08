@@ -3677,7 +3677,7 @@
     <name>Объект</name>
     <id>1</id>
     <valueType>
-      <types>DocumentObject.mega_СменныйПланПроизводства</types>
+      <types>DocumentObject.mega_СменныйПланПроизводства_v1</types>
     </valueType>
     <view>
       <common>true</common>
