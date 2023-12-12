@@ -1095,17 +1095,111 @@
         <autoCommandBar>
           <name>ТехнологическиеОперацииКоманднаяПанель</name>
           <id>103</id>
-          <items xsi:type="form:Button">
-            <name>ТехнологическиеОперацииЗаполнитьПоПлануПроизводства</name>
-            <id>154</id>
+          <items xsi:type="form:FormGroup">
+            <name>ТехнологическиеОперацииГруппаПодменюЗаполнить</name>
+            <id>202</id>
+            <items xsi:type="form:Button">
+              <name>ТехнологическиеОперацииЗаполнитьПоПлануПроизводства</name>
+              <id>154</id>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <extendedTooltip>
+                <name>ТехнологическиеОперацииЗаполнитьПоПлануПроизводстваРасширеннаяПодсказка</name>
+                <id>155</id>
+                <visible>true</visible>
+                <enabled>true</enabled>
+                <userVisible>
+                  <common>true</common>
+                </userVisible>
+                <type>Label</type>
+                <autoMaxWidth>true</autoMaxWidth>
+                <autoMaxHeight>true</autoMaxHeight>
+                <extInfo xsi:type="form:LabelDecorationExtInfo">
+                  <horizontalAlign>Left</horizontalAlign>
+                </extInfo>
+              </extendedTooltip>
+              <commandName>Form.Command.ЗаполнитьПоПлануПроизводства</commandName>
+              <representation>Auto</representation>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <placementArea>UserCmds</placementArea>
+              <representationInContextMenu>Auto</representationInContextMenu>
+            </items>
+            <items xsi:type="form:Button">
+              <name>ТехнологическиеОперацииПодборПоОстаткамПредыдущихВидовСтадийПроизводства</name>
+              <id>200</id>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <extendedTooltip>
+                <name>ТехнологическиеОперацииПодборПоОстаткамПредыдущихВидовСтадийПроизводстваРасширеннаяПодсказка</name>
+                <id>201</id>
+                <visible>true</visible>
+                <enabled>true</enabled>
+                <userVisible>
+                  <common>true</common>
+                </userVisible>
+                <type>Label</type>
+                <autoMaxWidth>true</autoMaxWidth>
+                <autoMaxHeight>true</autoMaxHeight>
+                <extInfo xsi:type="form:LabelDecorationExtInfo">
+                  <horizontalAlign>Left</horizontalAlign>
+                </extInfo>
+              </extendedTooltip>
+              <commandName>Form.Command.ПодборПоОстаткамПредыдущихВидовСтадийПроизводства</commandName>
+              <representation>Auto</representation>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <placementArea>UserCmds</placementArea>
+              <representationInContextMenu>Auto</representationInContextMenu>
+            </items>
+            <items xsi:type="form:Button">
+              <name>ТехнологическиеОперацииЗаполнитьПоОстаткамПредыдущихВидовСтадийПроизводства</name>
+              <id>204</id>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <extendedTooltip>
+                <name>ТехнологическиеОперацииЗаполнитьПоОстаткамПредыдущихВидовСтадийПроизводстваРасширеннаяПодсказка</name>
+                <id>205</id>
+                <visible>true</visible>
+                <enabled>true</enabled>
+                <userVisible>
+                  <common>true</common>
+                </userVisible>
+                <type>Label</type>
+                <autoMaxWidth>true</autoMaxWidth>
+                <autoMaxHeight>true</autoMaxHeight>
+                <extInfo xsi:type="form:LabelDecorationExtInfo">
+                  <horizontalAlign>Left</horizontalAlign>
+                </extInfo>
+              </extendedTooltip>
+              <commandName>Form.Command.ЗаполнитьПоОстаткамПредыдущихВидовСтадийПроизводства</commandName>
+              <representation>Auto</representation>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <placementArea>UserCmds</placementArea>
+              <representationInContextMenu>Auto</representationInContextMenu>
+            </items>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
               <common>true</common>
             </userVisible>
+            <title>
+              <key>ru</key>
+              <value>Заполнить</value>
+            </title>
             <extendedTooltip>
-              <name>ТехнологическиеОперацииЗаполнитьПоПлануПроизводстваРасширеннаяПодсказка</name>
-              <id>155</id>
+              <name>ТехнологическиеОперацииГруппаПодменюЗаполнитьРасширеннаяПодсказка</name>
+              <id>203</id>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -1118,42 +1212,10 @@
                 <horizontalAlign>Left</horizontalAlign>
               </extInfo>
             </extendedTooltip>
-            <commandName>Form.Command.ЗаполнитьПоПлануПроизводства</commandName>
-            <representation>Auto</representation>
-            <autoMaxWidth>true</autoMaxWidth>
-            <autoMaxHeight>true</autoMaxHeight>
-            <placementArea>UserCmds</placementArea>
-            <representationInContextMenu>Auto</representationInContextMenu>
-          </items>
-          <items xsi:type="form:Button">
-            <name>ТехнологическиеОперацииПодборПоОстаткамПредыдущихВидовСтадийПроизводства</name>
-            <id>200</id>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
-            <extendedTooltip>
-              <name>ТехнологическиеОперацииПодборПоОстаткамПредыдущихВидовСтадийПроизводстваРасширеннаяПодсказка</name>
-              <id>201</id>
-              <visible>true</visible>
-              <enabled>true</enabled>
-              <userVisible>
-                <common>true</common>
-              </userVisible>
-              <type>Label</type>
-              <autoMaxWidth>true</autoMaxWidth>
-              <autoMaxHeight>true</autoMaxHeight>
-              <extInfo xsi:type="form:LabelDecorationExtInfo">
-                <horizontalAlign>Left</horizontalAlign>
-              </extInfo>
-            </extendedTooltip>
-            <commandName>Form.Command.ПодборПоОстаткамПредыдущихВидовСтадийПроизводства</commandName>
-            <representation>Auto</representation>
-            <autoMaxWidth>true</autoMaxWidth>
-            <autoMaxHeight>true</autoMaxHeight>
-            <placementArea>UserCmds</placementArea>
-            <representationInContextMenu>Auto</representationInContextMenu>
+            <type>Popup</type>
+            <extInfo xsi:type="form:PopupGroupExtInfo">
+              <representation>Auto</representation>
+            </extInfo>
           </items>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -2350,6 +2412,23 @@
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
         <name>ПодборПоОстаткамПредыдущихВидовСтадийПроизводства</name>
+      </handler>
+    </action>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>ЗаполнитьПоОстаткамПредыдущихВидовСтадийПроизводства</name>
+    <title>
+      <key>ru</key>
+      <value>Заполнить по остаткам предыдущих видов стадий производства</value>
+    </title>
+    <id>3</id>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ЗаполнитьПоОстаткамПредыдущихВидовСтадийПроизводства</name>
       </handler>
     </action>
     <currentRowUse>Auto</currentRowUse>
