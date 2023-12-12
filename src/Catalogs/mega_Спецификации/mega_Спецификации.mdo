@@ -456,6 +456,98 @@
       <dataHistory>Use</dataHistory>
     </attributes>
   </tabularSections>
+  <tabularSections uuid="85673a5d-0aff-4796-adba-ecd18dd8ff52">
+    <producedTypes>
+      <objectType typeId="0faa410d-633d-4f77-8d10-18757f91bdda" valueTypeId="e780e24b-8b31-48c6-858f-019f8710c4bb"/>
+      <rowType typeId="e5e0436a-3d19-4ded-bb77-f5fac23cb616" valueTypeId="77b95e21-4e0f-42a3-ad9c-890584a38677"/>
+    </producedTypes>
+    <name>СопутствующийВыпуск</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сопутствующий выпуск</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="df882dc1-207c-4205-a24d-fbaf10bd02bf">
+      <name>Номенклатура</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номенклатура</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.mega_Номенклатура</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="fcb7197d-a94b-4d64-a71c-c5fb3226a0a7">
+      <name>Количество</name>
+      <synonym>
+        <key>ru</key>
+        <value>Количество</value>
+      </synonym>
+      <type>
+        <types>DefinedType.mega_КоличественнаяСуммаНеотрицательная</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="6a919b7e-de84-4f7b-83c9-34b4eae66188">
+      <name>ЕдиницаИзмерения</name>
+      <synonym>
+        <key>ru</key>
+        <value>Единица измерения</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.mega_ЕдиницыИзмерения</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <choiceParameterLinks>
+        <name>Отбор.Владелец</name>
+        <field>Catalog.mega_Спецификации.TabularSection.СопутствующийВыпуск.Attribute.Номенклатура</field>
+      </choiceParameterLinks>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="0a96c597-5c08-4222-8f1e-e8fabd5692a4">
+      <name>СтадияОбработки</name>
+      <synonym>
+        <key>ru</key>
+        <value>Стадия обработки</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.mega_ВидыСтадийОбработки</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="18dd0fe8-d103-46e4-bfba-408876f63397">
+      <name>КлючСвязи</name>
+      <synonym>
+        <key>ru</key>
+        <value>Ключ связи</value>
+      </synonym>
+      <type>
+        <types>UUID</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+    </attributes>
+  </tabularSections>
   <forms uuid="ac0e2770-5c3b-4aa8-a76e-751c357f5cca">
     <name>ФормаСписка</name>
     <synonym>
