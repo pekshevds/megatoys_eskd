@@ -2039,7 +2039,7 @@
           </extInfo>
         </items>
         <items xsi:type="form:FormField">
-          <name>СопутствующийВыпускСтадияОбработки</name>
+          <name>СопутствующийВыпускВидСтадииОбработки</name>
           <id>147</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -2047,10 +2047,10 @@
             <common>true</common>
           </userVisible>
           <dataPath xsi:type="form:DataPath">
-            <segments>Объект.СопутствующийВыпуск.СтадияОбработки</segments>
+            <segments>Объект.СопутствующийВыпуск.ВидСтадииОбработки</segments>
           </dataPath>
           <extendedTooltip>
-            <name>СопутствующийВыпускСтадияОбработкиРасширеннаяПодсказка</name>
+            <name>СопутствующийВыпускВидСтадииОбработкиРасширеннаяПодсказка</name>
             <id>149</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -2065,7 +2065,7 @@
             </extInfo>
           </extendedTooltip>
           <contextMenu>
-            <name>СопутствующийВыпускСтадияОбработкиКонтекстноеМеню</name>
+            <name>СопутствующийВыпускВидСтадииОбработкиКонтекстноеМеню</name>
             <id>148</id>
             <visible>true</visible>
             <enabled>true</enabled>

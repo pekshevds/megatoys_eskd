@@ -196,6 +196,21 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="a1a248c8-b012-455b-b0c0-4413cb61187e">
+    <name>ЕстьСопутствующийВыпуск</name>
+    <synonym>
+      <key>ru</key>
+      <value>Есть сопутствующий выпуск</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <tabularSections uuid="65532cfe-4bbf-4daa-b3b6-5824b5aba5fb">
     <producedTypes>
       <objectType typeId="a115c8ad-ddd6-4300-ac1c-b4dfee9402ab" valueTypeId="98f92e47-f356-49af-9589-a39fd6985fd5"/>
@@ -521,10 +536,10 @@
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
     <attributes uuid="0a96c597-5c08-4222-8f1e-e8fabd5692a4">
-      <name>СтадияОбработки</name>
+      <name>ВидСтадииОбработки</name>
       <synonym>
         <key>ru</key>
-        <value>Стадия обработки</value>
+        <value>Вид стадии обработки</value>
       </synonym>
       <type>
         <types>CatalogRef.mega_ВидыСтадийОбработки</types>
