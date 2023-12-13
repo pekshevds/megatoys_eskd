@@ -148,6 +148,7 @@
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
@@ -215,6 +216,7 @@
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
@@ -231,6 +233,7 @@
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
@@ -491,6 +494,49 @@
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
       <dataHistory>Use</dataHistory>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="11e655ed-57c8-436a-a08b-0345d77348aa">
+    <producedTypes>
+      <objectType typeId="967e547b-3684-4d71-bb29-70f096f13ce8" valueTypeId="d95959a7-f18a-4b19-b90f-f69239138904"/>
+      <rowType typeId="527ab57c-0f0f-4070-ac6e-1a3244ab9c6f" valueTypeId="72d70f5a-a73e-4820-bc8d-53e365a61fd4"/>
+    </producedTypes>
+    <name>СоставПроизводственногоРесурса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Состав производственного ресурса</value>
+    </synonym>
+    <attributes uuid="65062b99-a010-4610-b3e6-c27d88901104">
+      <name>Время</name>
+      <synonym>
+        <key>ru</key>
+        <value>Время, ч.</value>
+      </synonym>
+      <type>
+        <types>DefinedType.mega_ВремяВЧасах</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="bb2212e4-97c3-49da-b8a5-6639300abfe8">
+      <name>Элемент</name>
+      <synonym>
+        <key>ru</key>
+        <value>Элемент</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.mega_ЭлементыПроизводственныхРесурсов</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <choiceParameterLinks>
+        <name>Отбор.Владелец</name>
+        <field>Document.mega_СменноеЗадание.Attribute.ПроизводственныйРесурс</field>
+      </choiceParameterLinks>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
     </attributes>
   </tabularSections>
   <templates uuid="4a96507d-616f-4e04-a326-361f6b7ceb9e">
